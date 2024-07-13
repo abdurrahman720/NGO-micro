@@ -15,7 +15,7 @@ const AmountButton = ({ value, setAmount, amount }: AmountButtonProps) => {
 
   return (
     <button
-      className={`border-green-400 border-2 px-8 py-4 rounded bg-green-200 ${
+      className={`border-red-400 border-2 px-8 py-4 rounded bg-red-200 ${
         checked ? "border" : "border-none"
       }`}
       onClick={() => setAmount(value)}
@@ -44,7 +44,7 @@ const DonateInput = (props: Props) => {
           className="min-w-[300px] w-[400px] border-b-2 border-black appearance-none focus:outline-none focus:shadow-outline"
         />
         <div className="w-40 mx-auto">
-          <DonateButton type="submit">Donate Now</DonateButton>
+          <DonateButton type="submit">Get Credit</DonateButton>
         </div>
       </form>
     </div>

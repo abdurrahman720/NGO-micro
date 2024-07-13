@@ -8,7 +8,7 @@ type Props = {};
 const DonateToday = (props: Props) => {
   return (
     <SectionLayout>
-      <SectionHeader heading="Donate Today" />
+      <SectionHeader heading="Micro Credit Schemes" />
 
       <DonateInput />
     </SectionLayout>
